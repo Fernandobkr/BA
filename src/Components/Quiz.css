@@ -1,0 +1,179 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background-color: #ecffeb;
+    padding: 1rem;
+    width: 50rem;
+    height: 250px;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    font-size: 25px;
+    top: 200px;
+    left: 150px;
+}
+/* Fragenbox Quiz3 da hier Fragen alle länger */
+.boxQuiz3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background-color: #ecffeb;
+    padding: 1rem;
+    width: 50rem;
+    height: 250px;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    font-size: 25px;
+    top: 400px;
+    left: 150px;
+}
+
+
+.boxAnswer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    background-color: #a8eda1;
+    padding: 1rem;
+    width: 50rem;
+    height: 200px;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    font-size: 25px;
+    top: 200px;
+    left: 150px;
+}
+
+.button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 1px solid #a8eda1;
+    background-color: #a8eda1;
+    color: black;
+    border-radius: 12px;
+    margin-right: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 150px;
+    margin-top: 10px;
+}
+
+.buttonQuiz {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem; 
+    border: 1px solid #9ec699;
+    background-color: #acdfa6;   
+    color: black;
+    border-radius: 12px;
+    margin-right: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    margin-top: 10px;
+}
+
+/* Antwortbuttons bei Quiz3 da Fragen hier länger */
+.buttonQuiz3 {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem; 
+    border: 1px solid #a8eda1;
+    background-color: #a8eda1;   
+    color: black;
+    border-radius: 12px;
+    margin-right: 2rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin-top: 10px;
+}
+
+.question {
+    font: inherit;
+    font-size: 30px;
+    padding: 0.5rem 2rem;
+    border: 1px solid #b0ceac;
+    background-color: #b0ceac;
+    color: black;
+    border-radius: 12px;
+    margin-right: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.answerSalesman {
+    position: fixed;
+    font: inherit;
+    font-size: 30px;
+    align-items:center;
+    background-color: #d1d1d1;
+    padding: 1rem;
+    width: 20rem;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    top: 150px;
+    left: 1400px;
+}
+
+.answerSalesman2 {
+    position: fixed;
+    font: inherit;
+    font-size: 30px;
+    align-items:center;
+    background-color: #d1d1d1;
+    padding: 1rem;
+    width: 20rem;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    top: 450px;
+    left: 1400px;
+}
+
+.answerSalesman3 {
+    position: fixed;
+    font: inherit;
+    font-size: 30px;
+    align-items:center;
+    background-color: #d1d1d1;
+    padding: 1rem;
+    width: 20rem;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    top: 330px;
+    left: 1450px;
+}
+
+.score {
+    font: inherit;
+    padding: 0.5rem 2rem;
+    border: 1px solid #dbf9d9;
+    background-color: #dbf9d9;
+    color: black;
+    border-radius: 12px;
+    margin-right: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin-bottom: 20px;
+}

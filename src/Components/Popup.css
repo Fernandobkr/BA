@@ -1,0 +1,126 @@
+.close{
+    cursor: pointer;
+    width: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    position: fixed;
+    left: 940px;
+    top: 25px;
+    background-color: #d3ead2;
+}
+
+.popup-box {
+        position: relative;
+	    align-items:center;
+        background-color: #ecffeb;
+        padding: 1rem;
+        width: 50rem;
+        max-width: 95%;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        font-family: arial;
+        z-index: 2;
+        top: 20px;
+        left: 150px;
+    }
+.closeQuiz{
+        cursor: pointer;
+        width: 2rem;
+        text-align: center;
+        border-radius: 12px;
+        position: fixed;
+        top: 155px;
+        left: 1710px;
+        background-color: #d1d1d1;
+    }
+
+.popup-boxQuiz {
+    position: fixed;
+    align-items:center;
+    font: inherit;
+    font-size: 30px;
+    background-color: #d1d1d1;
+    padding: 1rem;
+    width: 20rem;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    z-index: 1;
+    top: 150px;
+    left: 1400px;
+}
+
+.popup-boxQuiz2 {
+    font: inherit;
+    font-size: 30px;
+    position: fixed;
+    align-items:center;
+    background-color: #d1d1d1;
+    padding: 1rem;
+    width: 20rem;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    z-index: 1;
+    top: 450px;
+    left: 1400px;
+}
+
+.closeQuiz2{
+    cursor: pointer;
+    width: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    left: 307px;
+    top: 11px;
+    background-color: #d1d1d1;
+}
+
+.popup-boxQuiz3 {
+    font: inherit;
+    font-size: 30px;
+    position: fixed;
+    align-items:center;
+    background-color: #d1d1d1;
+    padding: 1rem;
+    width: 20rem;
+    height: 10rem;
+    max-width: 95%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: arial;
+    z-index: 1;
+    top: 330px;
+    left: 1450px;
+}
+
+.closeQuiz3{
+    cursor: pointer;
+    width: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    position: fixed;
+    top: 340px;
+    left: 1750px;
+    background-color: #d1d1d1;
+}
+
+.button
+   { font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 1px solid #a8eda1;
+    background-color: #a8eda1;
+    color: black;
+    border-radius: 12px;
+    margin-right: 1rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    width: 150px; 
+}
